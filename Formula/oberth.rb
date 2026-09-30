@@ -1,28 +1,28 @@
 class Oberth < Formula
   desc "Single-node Git-over-SSH CI service for Kubernetes with repository-owned Go pipelines"
   homepage "https://oberth.ci"
-  version "0.16.21"
+  version "0.16.22"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://releases.cloudtaser.io/oberth/v0.16.21/oberth-darwin-amd64"
-      sha256 "5eb3448b04b027b2c4e236d4f2acf62924ea7df2167f086f031ea5b69e855938"
+      url "https://releases.cloudtaser.io/oberth/v0.16.22/oberth-darwin-amd64"
+      sha256 "3bfb7865ed82702086692281a219bd351cd5383cdba339c6b30f65bf68d2ed00"
     end
     on_arm do
-      url "https://releases.cloudtaser.io/oberth/v0.16.21/oberth-darwin-arm64"
-      sha256 "6d3f4ba83785d8a26fc272bdb7f0aa61bc0812b6bad4d1892fbe89d066c510c0"
+      url "https://releases.cloudtaser.io/oberth/v0.16.22/oberth-darwin-arm64"
+      sha256 "ca9ce4b1da961233a16622c24baef19c89c0e42ad2cb61004a32d8d0d7070a4d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://releases.cloudtaser.io/oberth/v0.16.21/oberth-linux-amd64"
-      sha256 "0f8a6f05671b798b61d9d1b7737c3543e4bfe21499afb349a968a8eedff08b52"
+      url "https://releases.cloudtaser.io/oberth/v0.16.22/oberth-linux-amd64"
+      sha256 "e4cfe79dc5655812f64a744e5ac67e23476f2e62ba67e29566b61cf217bc23fc"
     end
     on_arm do
-      url "https://releases.cloudtaser.io/oberth/v0.16.21/oberth-linux-arm64"
-      sha256 "5243a34241a228b54a7247decafaffbee68d8d2454aa308bb1a63294eb4d9507"
+      url "https://releases.cloudtaser.io/oberth/v0.16.22/oberth-linux-arm64"
+      sha256 "9c25e4065bb9472ff1d2bf0a653cab8bab3a74a3ef7fcd988ff2bcb4a008a583"
     end
   end
 
