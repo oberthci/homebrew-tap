@@ -1,28 +1,28 @@
 class Oberth < Formula
   desc "Single-node Git-over-SSH CI service for Kubernetes with repository-owned Go pipelines"
   homepage "https://oberth.ci"
-  version "0.17.34"
+  version "0.17.35"
   license "Proprietary"
 
   on_macos do
     on_intel do
-      url "https://releases.oberth.ci/oberth/v0.17.34/oberth-darwin-amd64"
-      sha256 "7462dc0852923a7d3acf5475ed982aa8677cf2253b20eba15107981018f85004"
+      url "https://releases.oberth.ci/oberth/v0.17.35/oberth-darwin-amd64"
+      sha256 "9336f0bfd27bf660056a308fb4d1944098750b285ea05f4c48708e88b4863a60"
     end
     on_arm do
-      url "https://releases.oberth.ci/oberth/v0.17.34/oberth-darwin-arm64"
-      sha256 "f46a5dc5d28cd942e6d19cb1a2b53cebc03396230293d85727fd5a9ac71d64bc"
+      url "https://releases.oberth.ci/oberth/v0.17.35/oberth-darwin-arm64"
+      sha256 "993d322eb1a9c01c57ffef5bfa25e9765405cbdcf5e224aa7299658eff78c272"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://releases.oberth.ci/oberth/v0.17.34/oberth-linux-amd64"
-      sha256 "bffe7000c59d461af4bb4b01ed3f260d6fc68ef77031b3064d37bf32e444ff83"
+      url "https://releases.oberth.ci/oberth/v0.17.35/oberth-linux-amd64"
+      sha256 "0652b94bb9d23d0fdab9a89a1f51400c4f62e6d2a74ca2b5ab478c07f8545f14"
     end
     on_arm do
-      url "https://releases.oberth.ci/oberth/v0.17.34/oberth-linux-arm64"
-      sha256 "31a863be69f48f2fb9bbe35b5a28dacf3b3690e31c463dd7786a52dfd65ebca2"
+      url "https://releases.oberth.ci/oberth/v0.17.35/oberth-linux-arm64"
+      sha256 "74e48251a2c726ae7d42ea4778350f372918b85423914c1d18bf52b0b2ce08ed"
     end
   end
 
